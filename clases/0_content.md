@@ -18,6 +18,10 @@
 ## Aplicaciones web
 * https://www.amazon.es/gp/product/8497716566?ie=UTF8&tag=jesusninoc-21&camp=3638&linkCode=xm2&creativeASIN=8497716566
 
+# Web recomendada
+## Aplicaciones web
+* https://www.docencia.taboadaleon.es/lenguajes-de-marcas/implantacion-de-aplicaciones-web/curso-2015-2016.html
+
 -------------------
 
 # INTRODUCCIÓN
