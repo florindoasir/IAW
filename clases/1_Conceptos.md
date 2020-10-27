@@ -37,5 +37,6 @@
 		- Profesor <teacher>
 	- Pasar a Json
 - Simular arquitectura tres niveles (con una BD)
+	- Intentar ejercicio anterior usando bases de datos
 - PHP + HTML + CSS
 	- [Ejercicio PHP XAMPP](https://www.docencia.taboadaleon.es/attachments/article/8/cuadernoActividadesEntornoPHP.pdf)
