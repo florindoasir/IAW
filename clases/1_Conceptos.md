@@ -21,6 +21,9 @@
 - Repaso LDM (HTML + CSS, XML)
 	- [static.html](/tests/florindo/27-10-2020/static.html)
 	- [dynamic.html](/tests/florindo/27-10-2020/dynamic.html)
+	- Añadir estilos css
+		- Mismo fichero
+		- Otro
 	- Crear xml con horario de clase
 		- Nodo principal ``<asir year="2020-2021">``
 		- Dias de la semana con atributo number ``<day number="1">``
