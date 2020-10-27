@@ -26,9 +26,10 @@
 		- Otro
 	- Crear xml con horario de clase
 		- Nodo principal ``<asir year="2020-2021">``
+		- Array days ``<days>``
 		- Dias de la semana con atributo number ``<day number="1">``
 		- Array hours ``<hours>``
-		- Hora con atributos number ``<hours number="1">``
+		- Hora con atributos number ``<hour number="1">``
 		- Asignatura ``<subject>``
 		- Profesor ``<teacher>``
 	- Pasar a Json
