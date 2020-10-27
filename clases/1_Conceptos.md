@@ -28,6 +28,14 @@
   	- [index.html](/tests/florindo/27-10-2020/index.html)
   	- [index.php](/tests/florindo/27-10-2020/_index.php)
 - Simular arquitectura dos niveles (XML,JSON)
+	- Crear xml con horario de clase
+		- Nodo principal <asir year="2020-2021">
+		- Dias de la semana con atributo number <day number="1">
+		- Array hours <hours>
+		- Hora con atributos number <hours number="1">
+		- Asignatura <subject>
+		- Profesor <teacher>
+	- Pasar a Json
 - Simular arquitectura tres niveles (con una BD)
 - PHP + HTML + CSS
 	- [Ejercicio PHP XAMPP](https://www.docencia.taboadaleon.es/attachments/article/8/cuadernoActividadesEntornoPHP.pdf)
