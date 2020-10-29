@@ -1,0 +1,26 @@
+{
+    "days": [
+       {
+          "number": "1",
+          "hours": {
+             "hour": {
+                "number": "1",
+                "subject": "LDM",
+                "teacher": "Florindo"
+             }
+          }
+       },
+       {
+          "number": "2"
+       },
+       {
+          "number": "3"
+       },
+       {
+          "number": "4"
+       },
+       {
+          "number": "5"
+       }
+    ]
+ }
