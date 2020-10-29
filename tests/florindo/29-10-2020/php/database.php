@@ -2,7 +2,7 @@
 //https://www.hostinger.es/tutoriales/conectar-php-mysql/
 
 $servername = "localhost";
-$database = "test_iaw";
+$database = "iaw";
 $username = "test";
 $password = "test";
 // Create connection
@@ -11,7 +11,9 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-if ($resultado = $conn->query("SELECT Name FROM Country LIMIT 10")) {
+if ($resultado = $conn->query("SELECT * FROM City LIMIT 2")) {
+    echo "<pre>";
+    var_dump($conn);die;
     printf("La selección devolvió %d filas.\n", $resultado->num_rows);
 
     /* liberar el conjunto de resultados */
