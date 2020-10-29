@@ -2,13 +2,18 @@
     "days": [
        {
           "number": "1",
-          "hours": {
-             "hour": {
+          "hours": [
+             {
                 "number": "1",
+                "time": "2",
+                "subject": "Seguridad",
+                "teacher": "Fidel"
+             },{
+                "number": "2",
                 "subject": "LDM",
                 "teacher": "Florindo"
              }
-          }
+         ]
        },
        {
           "number": "2"

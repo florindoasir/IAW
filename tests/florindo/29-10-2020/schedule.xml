@@ -2,7 +2,11 @@
     <days>
         <day number="1">
             <hours>
-                <hour number="1">
+                <hour number="1" time="2">
+                    <subject>Seguridad</subject>
+                    <teacher>Fidel</teacher>
+                </hour>
+                <hour number="2">
                     <subject>LDM</subject>
                     <teacher>Florindo</teacher>
                 </hour>
