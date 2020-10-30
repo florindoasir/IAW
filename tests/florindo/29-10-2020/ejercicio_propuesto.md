@@ -5,7 +5,8 @@
    3. Edad (desde la variable $edad)
    4. Foto (debe cargarla usando una variable $foto_url)
    5. Array con cursos realizados
-   6. Formulario de contacto con botón de enviar
+   6. Formulario de contacto con textarea y botón de enviar
+   7. Una vez enviado el formulario se debe mostrar el comentario
 2. Debe combinar php + html.
 3. Se valorará el uso de CSS para la plantilla
 
