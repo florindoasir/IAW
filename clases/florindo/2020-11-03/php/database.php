@@ -12,11 +12,16 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 if ($resultado = $conn->query("SELECT * FROM City LIMIT 2")) {
-    echo "<pre>";
-    printf("La selección devolvió %d filas.\n", $resultado->num_rows);
+    /* obtener un array asociativo */
+    $arrayCities = array ();
 
-    /* liberar el conjunto de resultados */
-    $resultado->close();
+    while ($fila = $resultado->fetch_assoc()) {
+        echo "<p>Ciudad ".$fila["id"]." ".$fila["name"]."</p>";
+        $arrayCities[] = $fila;
+    }
+echo "<pre>";    
+var_dump($arrayCities);die;
+    $resultado->free();
 }
 echo "Connected successfully";
 mysqli_close($conn);
