@@ -1,8 +1,12 @@
-# Conceptos generales de la arquitectura aplicaciones web
-- Aplicaciones web vs. aplicaciones de escritorio.
-- Arquitectura cliente servidor. Elementos.
-- Arquitectura de tres niveles.
-- Protocolos de aplicación más usados: HTTP (Hyper Text Transfer Protocol), HTTPS (Hyper Text Transfer Protocol Secure), FTP. 
+# INSTALACIÓN DE SERVIDORES DE APLIC. WEB
+- Servidor web y Servidores de Aplicaciones. Diferencias. 
+- Tipos de servidores de aplicación web. 
+- Licencias de uso.
+- Requerimientos de funcionamiento.
+- Sistema gestor de base de datos.
+- Código: lenguajes de script en cliente y servidor. Tipos.
+- Módulos y componentes.
+- Parámetros de configuración.
 
 ## Conceptos
 - Servidor web
