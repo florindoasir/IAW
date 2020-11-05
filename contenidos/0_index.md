@@ -4,15 +4,15 @@
 - *Licencias de uso.*
 - Requerimientos de funcionamiento.
 - Sistema gestor de base de datos.
-- Código: lenguajes de script en cliente y servidor. Tipos.
+- *Código: lenguajes de script en cliente y servidor. Tipos.*
 - Módulos y componentes.
 - Parámetros de configuración.
 
 # PROGRAMACIÓN WEB CON SCRIPT DE SERVIDOR (28)
-- Lenguajes de guión y de marcas. Tipos.
-- Sintaxis: tipos de datos, operadores, estructuras de control.
-- Funciones integradas y de usuario. Procedimientos.
-- Parámetros actuales y formales.
+- *Lenguajes de guión y de marcas. Tipos.*
+- *Sintaxis: tipos de datos, operadores, estructuras de control.*
+- *Funciones integradas y de usuario. Procedimientos.*
+- *Parámetros actuales y formales.*
 - Gestión de errores.
 - Formularios.
 - Autenticación de usuarios.
