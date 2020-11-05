@@ -1,7 +1,0 @@
-AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.2. Set the 'ServerName' directive globally to suppress this message
-[Tue Nov 03 07:44:51.698935 2020] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.38 (Debian) PHP/7.2.34 configured -- resuming normal operations
-[Tue Nov 03 07:44:51.700040 2020] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
-[Tue Nov 03 07:47:10.126720 2020] [autoindex:error] [pid 17] [client 172.19.0.1:37254] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
-[Tue Nov 03 07:47:39.982100 2020] [autoindex:error] [pid 21] [client 172.19.0.1:37262] AH01276: Cannot serve directory /var/www/html/florindo/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
-[Tue Nov 03 07:48:20.741404 2020] [autoindex:error] [pid 18] [client 172.19.0.1:37270] AH01276: Cannot serve directory /var/www/html/florindo/2020-11-03/php/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
-[Tue Nov 03 08:08:45.927062 2020] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
