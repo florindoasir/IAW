@@ -11,10 +11,10 @@
 # PROGRAMACIÓN WEB CON SCRIPT DE SERVIDOR (28)
 - *Lenguajes de guión y de marcas. Tipos.*
 - *Sintaxis: tipos de datos, operadores, estructuras de control.*
-- *Funciones integradas y de usuario. Procedimientos.*
+- *Funciones integradas y de usuario.* Procedimientos.
 - *Parámetros actuales y formales.*
-- Gestión de errores.
-- Formularios.
+- *Gestión de errores.*
+- *Formularios.*
 - Autenticación de usuarios.
 - Sesiones y cookies.
 - Intérpretes.
