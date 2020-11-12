@@ -57,7 +57,8 @@
                 <input type='radio'  name='publica' value='privada'> Privada<br>
 
                 Tipo de Musica
-                <select name='tipo'>";
+                <select name='tipo'>
+                    <option value=''>Seleccionar tipo de música</option>
                     <option value='pop'>Pop</option>
                     <option value='rock'>Rock</option>
                     <option value='jazz'>Jazz</option>
