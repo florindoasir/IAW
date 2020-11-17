@@ -1,6 +1,6 @@
 # INSTALACIÓN DE SERVIDORES DE APLIC. WEB
-- Servidor web y Servidores de Aplicaciones. Diferencias. 
-- Tipos de servidores de aplicación web. 
+- Servidor web y Servidores de Aplicaciones. Diferencias.
+- Tipos de servidores de aplicación web.
 - Licencias de uso.
 - Requerimientos de funcionamiento.
 - Sistema gestor de base de datos.
@@ -23,8 +23,8 @@
 	- DHTML
 	- VBScript
 - Repaso LDM (HTML + CSS, XML)
-	- [static.html](/tests/florindo/27-10-2020/static.html)
-	- [dynamic.html](/tests/florindo/27-10-2020/dynamic.html)
+	- [static.html](/clases/florindo/27-10-2020/static.html)
+	- [dynamic.html](/clases/florindo/27-10-2020/dynamic.html)
 	- Añadir estilos css
 		- Mismo fichero
 		- Otro
@@ -38,12 +38,15 @@
 		- Profesor ``<teacher>``
 	- Pasar a Json
 - Instalar XAMPP
+  - [¿Qué es Apache?] https://www.hostinger.es/tutoriales/que-es-apache/
 - Conexión al localhost creado
-  	- [index.html](/tests/florindo/27-10-2020/index.html)
-  	- [index.php](/tests/florindo/27-10-2020/_index.php)
+  	- [index.html](/clases/florindo/27-10-2020/index.html)
+  	- [index.php](/clases/florindo/27-10-2020/_index.php)
 - Simular arquitectura dos niveles (XML,JSON)
 	- Usar XML y JSON
 - Simular arquitectura tres niveles (con una BD)
 	- Intentar ejercicio anterior usando bases de datos
 - PHP + HTML + CSS
 	- [Ejercicio PHP XAMPP](https://www.docencia.taboadaleon.es/attachments/article/8/cuadernoActividadesEntornoPHP.pdf)
+- DOCKER
+	- Introducción a docker
