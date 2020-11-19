@@ -48,5 +48,3 @@
 	- Intentar ejercicio anterior usando bases de datos
 - PHP + HTML + CSS
 	- [Ejercicio PHP XAMPP](https://www.docencia.taboadaleon.es/attachments/article/8/cuadernoActividadesEntornoPHP.pdf)
-- DOCKER
-	- Introducción a docker

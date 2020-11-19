@@ -15,10 +15,10 @@
 - *Parámetros actuales y formales.*
 - *Gestión de errores.*
 - *Formularios.*
-- Autenticación de usuarios.
 - Sesiones y cookies.
+- Autenticación de usuarios.
 - Intérpretes.
-- Herramientas de edición de código y entornos de desarrollo.
+- *Herramientas de edición de código y entornos de desarrollo.
 - Frameworks de desarrollo.
 - Patrones de desarrollo: MVC (Modelo Vista Controlador).
 

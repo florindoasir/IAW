@@ -17,3 +17,19 @@
 	- [php 1](php/php-1.pdf)
 	- [php 2](php/php-2.pdf)
 	- [php 3](php/php-3.pdf)
+- Entorno de desarrollo
+	- Desarrollo
+	- Test
+	- Producción
+- DOCKER
+	- [Video docker]https://www.youtube.com/watch?v=Uu49ID0NBRQ
+	- Introducción a docker
+	- Contenerización
+		- PHP
+		- JAVA
+		- Paython
+	- Desplegar aplicaciones
+	- Diferencia entre maquina virtual y contenedor docker
+		- Maquina virtual SSOO completo
+		- Contenedores, comparten ficheros del SSOO base
+	- Instalar docker
