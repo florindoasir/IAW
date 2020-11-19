@@ -2,7 +2,7 @@
 - *Servidor web y Servidores de Aplicaciones. Diferencias.*
 - *Tipos de servidores de aplicación web.*
 - *Licencias de uso.*
-- Requerimientos de funcionamiento.
+- *Requerimientos de funcionamiento.*
 - Sistema gestor de base de datos.
 - *Código: lenguajes de script en cliente y servidor. Tipos.*
 - Módulos y componentes.
