@@ -5,6 +5,7 @@
  <body>
   <h1>Contenidos</h1>
     <?php
+      phpinfo();
       $currentDirectory = getDirectories("./florindo");
 
       foreach ($currentDirectory as $key => $value) {
@@ -29,7 +30,6 @@
         return $resDirectories;
 
       }
-
 
     ?>
  </body>
