@@ -3,10 +3,10 @@
 - *Tipos de servidores de aplicación web.*
 - *Licencias de uso.*
 - *Requerimientos de funcionamiento.*
-- Sistema gestor de base de datos.
+- *Sistema gestor de base de datos.*
 - *Código: lenguajes de script en cliente y servidor. Tipos.*
-- Módulos y componentes.
-- Parámetros de configuración.
+- *Módulos y componentes.*
+- *Parámetros de configuración.*
 
 # PROGRAMACIÓN WEB CON SCRIPT DE SERVIDOR (28)
 - *Lenguajes de guión y de marcas. Tipos.*
