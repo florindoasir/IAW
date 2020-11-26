@@ -5,7 +5,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     ports:
-      - "8081:80"
+      - "80:80"
     volumes:
       - ./clases:/var/www/html
       - ./apache/logs:/var/log/apache2
