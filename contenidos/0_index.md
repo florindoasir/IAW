@@ -18,7 +18,7 @@
 - Sesiones y cookies.
 - Autenticación de usuarios.
 - Intérpretes.
-- *Herramientas de edición de código y entornos de desarrollo.
+- *Herramientas de edición de código y entornos de desarrollos*
 - Frameworks de desarrollo.
 - Patrones de desarrollo: MVC (Modelo Vista Controlador).
 
