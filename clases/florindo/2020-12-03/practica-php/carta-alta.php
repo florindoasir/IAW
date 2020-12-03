@@ -23,9 +23,67 @@
 </head>
 
 <body>
+<?php
+
+ $carta1 = rand(1,10);
+ $carta2 = rand(1,10);
+ $carta3 = rand(1,10);
+
+ $carta_alta = max($carta1, $carta2, $carta3);
+
+ $imgsrc1 = "img/c".$carta1.".svg";
+ $imgsrc2 = "img/c".$carta2.".svg";
+ $imgsrc3 = "img/c".$carta3.".svg";
+ $imgsrcAlta = "img/c".$carta_alta.".svg";
+
+?>
   <h1>La carta más alta</h1>
 
   <p>Actualice la página para mostrar un nuevo trío de cartas.</p>
+
+
+  <img class="carta" src="<?php echo $imgsrc1; ?>">
+  <img class="carta" src="<?php echo $imgsrc2; ?>">
+  <img class="carta" src="<?php echo $imgsrc3; ?>">
+
+
+  la carta mas alta es <img class="carta" src="<?php echo $imgsrcAlta; ?>">
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <img class="carta" src="<?php echo "img/c".$carta1.".svg" ?>"></img>
+  <img class="carta" src="<?php echo "img/c".$carta2.".svg" ?>"></img>
+  <img class="carta" src="<?php echo "img/c".$carta3.".svg" ?>"></img>
+
+  <p>La carta más alta es <img class="carta" src="<?php echo "img/c".$carta_alta.".svg" ?>"></img></p>
 
 <?php
 

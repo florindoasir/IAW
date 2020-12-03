@@ -27,12 +27,36 @@
   <h1>Avance de ficha</h1>
 
   <p>Actualice la página para mostrar una nueva tirada.</p>
+  <form action ="dado-ficha.php" method="post">
+    <input type="number" min="1" max="6" name="valor_dado">
+    <input type="submit" name="enviar" value="enviar">
+  </form>
 
-<?php
+  <?php
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+    if(isset($_POST['enviar'])){
+      echo "<p><img src='img/".$_POST['valor_dado'].".svg'><p>";
+    }
 
-?>
+    $randonValue = $_POST['valor_dado'];
+    //$randonValue = rand(1,6);
+
+    $background = [
+      "white",
+      "white",
+      "white",
+      "white",
+      "white",
+      "white",
+    ];
+
+    $background[$randonValue-1] = "red";
+
+    foreach ($background as $key => $bg) {
+      echo "<div style='background-color:".$bg."'>".($key+1)."</div>";
+    }
+
+  ?>
 
   <footer>
     <p>Escriba aquí su nombre</p>
