@@ -23,13 +23,9 @@
   <h1>Tirada de dados</h1>
 <?php
 
- $dados1 = rand(1, 6);
- $dados2 = rand(1, 6);
- $dados3 = rand(1, 6);
-
- $_SESSION['dado1'] = $dados1;
- $_SESSION['dado2'] = $dados2;
- $_SESSION['dado3'] = $dados3;
+ $dados1 = $_SESSION['dado1'];
+ $dados2 = $_SESSION['dado2'];
+ $dados3 = $_SESSION['dado3'];
 
 ?>
 <p>
@@ -40,19 +36,19 @@
 <p>Valor Total conseguido: <?php echo $dados1 + $dados2 + $dados3; ?></p>
 <p>
   <a href="tirada-dados-1.php">Volver a tirar</a>
-<p>
 </p>
-  <a href="tirada-dados-2.php">Resumen de la tirada con sesión</a>
-</p>
-<form action="tirada-dados-2.php" method="post">
-  <input type="hidden" name="dado1" value="<?php echo $dados1; ?>" >
-  <input type="hidden" name="dado2" value="<?php echo $dados2; ?>" >
-  <input type="hidden" name="dado3" value="<?php echo $dados3; ?>" >
-  <input type="submit" name="enviar" value="Resumen de la tirada desde el form"> 
-</form>
-
+<form action="tirada-dados-2.php">
+<?php
+/**
+ * Tirada dados - tirada-dados-1.php
+ *
+ * @author Florindo López Delgado
+ */
+ //session_destroy();
+?>
 <footer>
   <p>Florindo López Delgado</p>
 </footer>
 </body>
 </html>
+
