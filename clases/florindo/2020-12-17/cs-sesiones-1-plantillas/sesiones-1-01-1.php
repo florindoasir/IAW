@@ -5,8 +5,7 @@
  * @author Escriba aquí su nombre
  *
  */
-
-print "<!-- Ejercicio incompleto -->\n";
+session_start();
 
 ?>
 <!DOCTYPE html>
@@ -25,13 +24,16 @@ print "<!-- Ejercicio incompleto -->\n";
 <body>
   <h1>Formulario Texto 1 (Formulario)</h1>
 
-<?php
+  <p>
+    <?php
+      if(isset($_SESSION['valor_introducido'])){
+        echo "El último texto enviado fue: <b>".$_SESSION['valor_introducido']."</b>";  
+      }
+      
+    ?>
+  </p>
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
-
-?>
-
-  <form action="sesiones-1-01-2.php" method="get">
+  <form action="sesiones-1-01-2.php" method="post">
     <p><label>Escriba texto: <input type="text" name="texto" size="20" maxlength="20"></label></p>
 
     <p>

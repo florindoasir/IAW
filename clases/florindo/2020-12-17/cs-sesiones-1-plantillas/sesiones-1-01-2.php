@@ -6,8 +6,7 @@
  *
  */
 
-print "<!-- Ejercicio incompleto -->\n";
-
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -27,7 +26,12 @@ print "<!-- Ejercicio incompleto -->\n";
 
 <?php
 
-print "  <p class=\"aviso\">Ejercicio incompleto</p>\n";
+if(isset($_POST['texto'])){
+  echo "El texto introducido es <b>".$_POST['texto']."</b><br>";
+  $texto = $_POST['texto'];
+  $_SESSION['valor_introducido'] = $texto;
+  echo "El valor en sesión es <b>".$_SESSION['valor_introducido']."</b>";
+}
 
 ?>
 
