@@ -39,3 +39,5 @@
 		- Maquina virtual SSOO completo
 		- Contenedores, comparten ficheros del SSOO base
 	- Instalar docker
+- FRAMEWORK
+- MVC
