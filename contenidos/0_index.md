@@ -15,12 +15,12 @@
 - *Parámetros actuales y formales.*
 - *Gestión de errores.*
 - *Formularios.*
-- Sesiones y cookies.
-- Autenticación de usuarios.
+- *Sesiones y cookies.*
+- *Autenticación de usuarios.*
 - Intérpretes.
 - *Herramientas de edición de código y entornos de desarrollos*
-- Frameworks de desarrollo.
-- Patrones de desarrollo: MVC (Modelo Vista Controlador).
+- *Frameworks de desarrollo.*
+- *Patrones de desarrollo: MVC (Modelo Vista Controlador).*
 
 # ACCESO A BD CON SCRIPT DE SERVIDOR (15)
 - Sistemas gestores de bases de datos. Tipos.
