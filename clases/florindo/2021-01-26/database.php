@@ -1,10 +1,10 @@
 <?php
 //https://www.hostinger.es/tutoriales/conectar-php-mysql/
 
-$servername = "127.0.0.1";
+$servername = "mysql";
 $database = "world";
-$username = "test";
-$password = "test";
+$username = "root";
+$password = "secret";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 
@@ -13,7 +13,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$query = "SELECT * FROM Country ORDER by 'population desc' LIMIT 3";
+$query = "SELECT * FROM country ORDER by 'population desc' LIMIT 3";
 
 if ($resultado = $conn->query($query)) {
     while( $row = $resultado->fetch_array() )
