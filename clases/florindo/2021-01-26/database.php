@@ -2,7 +2,7 @@
 //https://www.hostinger.es/tutoriales/conectar-php-mysql/
 
 $servername = "mysql";
-$database = "world";
+$database = "nba2";
 $username = "root";
 $password = "secret";
 // Create connection

@@ -13,9 +13,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
--- Volcando estructura de base de datos para test
-CREATE DATABASE IF NOT EXISTS `nba` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `nba`;
 
 -- Volcando estructura para tabla test.equipo
 CREATE TABLE IF NOT EXISTS `equipo` (
@@ -50,23 +47,7 @@ INSERT INTO `jugador` (`id`, `name`, `equipo_id`) VALUES
 	(4, 'Lebron James', 2);
 /*!40000 ALTER TABLE `jugador` ENABLE KEYS */;
 
--- Volcando estructura para tabla test.jugador-posicion
-CREATE TABLE IF NOT EXISTS `jugador-posicion` (
-  `jugador_id` int(11) NOT NULL,
-  `posicion_id` int(11) NOT NULL,
-  PRIMARY KEY (`jugador_id`,`posicion_id`) USING BTREE,
-  KEY `FK-posicion` (`posicion_id`),
-  CONSTRAINT `FK-jugador` FOREIGN KEY (`jugador_id`) REFERENCES `jugador` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  CONSTRAINT `FK-posicion` FOREIGN KEY (`posicion_id`) REFERENCES `posicion` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Volcando datos para la tabla test.jugador-posicion: ~4 rows (aproximadamente)
-/*!40000 ALTER TABLE `jugador-posicion` DISABLE KEYS */;
-INSERT INTO `jugador-posicion` (`jugador_id`, `posicion_id`) VALUES
-	(1, 3),
-	(2, 3),
-	(4, 3),
-	(4, 4);
 /*!40000 ALTER TABLE `jugador-posicion` ENABLE KEYS */;
 
 -- Volcando estructura para tabla test.partido
@@ -110,3 +91,20 @@ INSERT INTO `posicion` (`id`, `name`) VALUES
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+-- Volcando estructura para tabla test.jugador-posicion
+CREATE TABLE IF NOT EXISTS `jugador-posicion` (
+  `jugador_id` int(11) NOT NULL,
+  `posicion_id` int(11) NOT NULL,
+  PRIMARY KEY (`jugador_id`,`posicion_id`) USING BTREE,
+  KEY `FK-posicion` (`posicion_id`),
+  CONSTRAINT `FK-jugador` FOREIGN KEY (`jugador_id`) REFERENCES `jugador` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK-posicion` FOREIGN KEY (`posicion_id`) REFERENCES `posicion` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Volcando datos para la tabla test.jugador-posicion: ~4 rows (aproximadamente)
+/*!40000 ALTER TABLE `jugador-posicion` DISABLE KEYS */;
+INSERT INTO `jugador-posicion` (`jugador_id`, `posicion_id`) VALUES
+	(1, 3),
+	(2, 3),
+	(4, 3),
+	(4, 4);
