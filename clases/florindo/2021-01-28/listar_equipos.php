@@ -28,14 +28,17 @@ $resultado = $conn->query($sql);
 </head>
 <body>
 
-<h1>Equipos</h1>
+<h1>Equipos1</h1>
 <?php
+
+
+
 if ($resultado) {
     
     echo "<ol>";
     while( $row = $resultado->fetch_array() )
     {
-        echo"<li>".$row['name']."</li>";
+        echo"<li>".$row['name']."<a href='eliminar_equipo.php?id=2'>Eliminar equipo</a></li>";
     }
     
     echo "<ol />";
