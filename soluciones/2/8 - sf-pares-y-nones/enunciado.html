@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Exámen -Pares y nones</title>
+</head>
+
+<body>
+  <h1>Exámen - Pares y nones</h1>
+
+  <p>En este ejercicio se debe crear un programa que muestre una mano del juego "Pares y nones".</p>
+
+  <section id="comentarios">
+    <h2>Pares y nones - Comentarios</h2>
+
+    <ul>
+      <li>Las reglas del juego son las siguientes:
+        <ul>
+          <li>Cada jugador muestra un número de dedos de la mano (de ninguno a todos).</li>
+          <li>Se cuenta el total de dedos mostrados entre ambos jugadores.</li>
+          <li>El jugador 1 gana si ese total es par.</li>
+          <li>El jugador 2 gana si ese total es impar.</li>
+        </ul>
+      </li>
+      <li>El programa tendrá una sola página:
+        <ul>
+          <li>Se mostrarán las imágenes de las manos de ambos jugadores, al azar.</li>
+          <li>Se mostrará una imagen verde en el lado ganador.</li>
+          <li>Se mostrará una imagen roja en el lado perdedor.</li>
+        </ul>
+      </li>
+      <li>Al actualizar la página, se mostrará una nueva partida.</li>
+      <li>Se debe guardar un registro en sesión con el historial de quien ha ganado las últimas partidas.</li>
+      <li>El boton volver a tirar debe refrescar la página.</li>
+      <li>El boton reset debe refrescar empezar el hisotrial de nuevo.</li>
+      <li>El operador '%' de php muestra si el resto de una división, luego para saber si una función es múltiplo de dos se debe coomprobar de la siguiente forma.</li>
+      <b>if($numero%2 == 0){<br>
+        &nbsp;&nbsp;//numero par<br>
+      }else{<br>
+        &nbsp;&nbsp;//número impar<br>
+      }<br></b>
+      <li>Capturas de pantalla de ejemplo:
+        <p class="captura"><img src="ejemplo/pares-y-nones-1.png" alt="Pares y nones" width="991" height="350"></p>
+        <p class="captura"><img src="ejemplo/pares-y-nones-2.png" alt="Pares y nones" width="991" height="350"></p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="ejemplo-html">
+    <h2>Pares y nones - Ejemplo de código HTML</h2>
+
+    <div class="codigo">
+      <pre class=" language-html"><code class=" language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>img/<span class="codigo-resaltado">gana</span>.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="codigo-resaltado">Gana</span><span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>img/<span class="codigo-resaltado">4</span>.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="codigo-resaltado">4</span><span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>200<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>img/<span class="codigo-resaltado">0</span>.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="codigo-resaltado">0</span><span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>200<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>img/<span class="codigo-resaltado">pierde</span>.svg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="codigo-resaltado">Pierde</span><span class="token punctuation">"</span></span> <span class="token attr-name">height</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>100<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span></code>
+</pre>
+    </div>
+  </section>
+
+</body>
+</html>
