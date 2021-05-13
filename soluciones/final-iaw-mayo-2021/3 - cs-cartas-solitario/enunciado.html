@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Exámen -Cartas solitario</title>
+</head>
+
+<body>
+  <h1>Exámen - Cartas solitario</h1>
+
+  <p>En este ejercicio se debe crear un programa que muestre una mano del juego "Cartas solitario".</p>
+
+  <section id="comentarios">
+    <h2>Cartas solitario - Comentarios</h2>
+
+    <ul>
+      <li>El programa podrá tener dos páginas y utilizar sesiones:
+        <ul>
+          <li>La primera página muestra una carta de cada palo y la suma al hacer click en sus botones:
+            <ul>
+              <li>Las cartas son imagenes SVG.</li>
+              <li>Cada columna tiene cartas del mismo palo y las suma.</li>
+              <li>La primera vez que se abre el programa no se muestra ninguna carta, pero sí el total, que será cero, en la columna de cada palo</li>
+              <li>Al pulsar en añadir, se debe añadir una carta del mismo palo de la columna al azar y sumar el total de esa columna</li>
+              <li>Si el valor de alguno de los bloques supera la cifra de 50, el programa se debe reiniciar y los contadores pasar a 0</li>
+            </ul>
+          </li>
+          <li>La segunda página recoge el botón, modifica las variables de sesión y redirige a la primera página.
+
+          </li>
+        </ul>
+      </li>
+      <li>Si se intenta acceder directamente a la segunda página sin pasar por la primera o si se envía a la segunda página información distinta a la esperada, se redirigirá a la primera página sin informar al usuario.</li>
+      <li>No se deben cambiar el nombre del control incluido en las plantillas.</li>
+      <li>Al actualizar la primera página, no se modificará el contenido.</li>
+      <li>Capturas de pantalla de ejemplo:
+        <p class="captura"><img src="ejemplo/cartas-solitario-1.png" alt="Cartas solitario" width="860" height="160"></p>
+        <p class="captura"><img src="ejemplo/cartas-solitario-2.png" alt="Cartas solitario" width="860" height="320"></p>
+        <p class="captura"><img src="ejemplo/cartas-solitario-3.png" alt="Cartas solitario" width="860" height="320"></p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="ejemplo-html">
+    <h2>Cartas solitario - Ejemplo de código HTML</h2>
+
+    <div class="codigo">
+      <pre class=" language-html">
+        <code class=" language-html">
+          &lt;div class="row"&gt;
+            &lt;div class="col-4"&gt;
+              &lt;input type="submit" name="accionc" value="Añadir"&gt;
+              &lt;img width=100 src='img/c1.svg'&gt;
+              &lt;p&gt;
+                Total:&lt;span class="grande"&gt;1&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-4"&gt;
+              &lt;input type="submit" name="accionp" value="Añadir"&gt;
+              &lt;img width=100 src='img/p8.svg'&gt;
+              &lt;p&gt;
+                Total:&lt;span class="grande"&gt;8&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-4"&gt;
+              &lt;input type="submit" name="acciont" value="Añadir"&gt;
+              &lt;img width=100 src='img/t9.svg'&gt;
+              &lt;p&gt;
+                Total:&lt;span class="grande"&gt;9&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="col-4"&gt;
+              &lt;input type="submit" name="acciond" value="Añadir"&gt;
+              &lt;img width=100 src='img/d1.svg'&gt;
+              &lt;img width=100 src='img/d2.svg'&gt;
+              &lt;img width=100 src='img/d4.svg'&gt;
+              &lt;p&gt;
+                Total:&lt;span class="grande"&gt;7&lt;/span&gt;
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+    </div>
+  </section>
+
+</body>
+</html>
