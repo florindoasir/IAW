@@ -59,6 +59,7 @@ if(isset($_POST['mostrar']) && count($errores) == 0){
 
   <p>
     <?php
+      $palos      = ["c","d","p","t"];
       for ($i = 1; $i <= $cantidad; $i++) {
         $palosacado = $palos[rand(0,3)];
         $cartasacada = rand(1,10);
